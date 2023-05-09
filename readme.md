@@ -14,20 +14,29 @@ The project is tested in the following environment
 Keep all the .py files in one folder
 
 1. To build and train a network to recognize digits (A-F) execute following command 
-	python3 task1.py
+```bash
+python3 task1.py
+```
 
 2. To test handwritten digits dataset, execute following command 
-	python3 task1_Test.py
+```bash
+python3 task1_Test.py
+```
 
 3. To examine your netwrok and analyze the first layer, execute following command
-	python3 task2.py
+```bash
+python3 task2.py
+```
 
 4. To run transfer learning on Greek Letters, execute following command
-	python3 task3.py
+```bash
+python3 task3.py
+```
 
 5. To run a design experiment, execute following command
-	python3 task4.py
-
+```bash
+python3 task4.py
+```
 This experiment involves 64 experiments with 5 dimensions as follows:
 - epoch sizes: 3, 5
 - training batch sizes: 64, 128
@@ -36,7 +45,11 @@ This experiment involves 64 experiments with 5 dimensions as follows:
 - dropout rate: 0.3, 0.5
 
 6. To load and evaluate first two conv layers of ResNet18, execute following command
-	python3 resnet.py
+```bash
+python3 resnet.py
+```
 
 7. To replace the first layer of the MNIST network with Gabor filters, execute following command
-	python3 gabor_filter.py
+```bash
+python3 gabor_filter.py
+```
